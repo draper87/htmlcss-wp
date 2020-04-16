@@ -48,73 +48,76 @@ body {
 }
 
 /* Regole nav */
-nav {
+.contenitore nav {
   background-color: #504741;
 }
 
-nav ul {
+.contenitore nav ul {
   width: 70%;
   margin: auto;
 }
 
-nav ul li {
+.contenitore nav ul li {
   list-style-type: none;
   display: inline-block;
   margin-left: 15px;
   line-height: 50px;
 }
 
-nav ul li a {
+.contenitore nav ul li a {
   text-decoration: none;
   color: white;
 }
 
 /* Regole Main */
-main {
+.contenitore main {
   margin: 1em 0;
   width: 100%;
 }
-main::after {
+.contenitore main::after {
   content: "";
   display: table;
   clear: both;
 }
-main .col {
+.contenitore main .col {
   float: left;
 }
-main .col.left {
+
+/* Regole colonna di sinistra */
+.contenitore main .col.left {
   background-color: white;
   width: 28%;
   border-radius: 5px;
   padding: 20px;
 }
 
-main .col.left h4 {
+.contenitore main .col.left h4 {
   text-align: center;
   margin-top: 10px;
   color: #504741;
 }
 
-main .col.left h4 .feed {
+.contenitore main .col.left h4 .feed {
   color: orange;
 }
 
-main .col.left ul {
+.contenitore main .col.left ul {
   text-align: center;
   margin-top: 10px;
 }
 
-main .col.left ul li {
+.contenitore main .col.left ul li {
   list-style: none;
   line-height: 30px;
 }
 
-main .col.left ul li a {
+.contenitore main .col.left ul li a {
   text-decoration: none;
   color: green;
 }
 
-main .col.center {
+/* Regole colonna centrale */
+.contenitore main .col.center {
   background-color: white;
   width: 40%;
   margin: 0 2%;
@@ -122,25 +125,27 @@ main .col.center {
   padding: 20px;
 }
 
-main .col.center h2 {
+.contenitore main .col.center h2 {
   color: #504741;
   text-shadow: 3px 3px 0px rgba(0, 0, 0, .1);
 }
 
-main .col.center h2:hover {
+.contenitore main .col.center h2:hover {
   color: #99cc33;
   cursor: pointer;
 }
 
-main .col.center p {
+.contenitore main .col.center p {
   margin-top: 15px;
   line-height: 20px;
 }
 
-main .col.right {
+/* Regole colonna di destra */
+.contenitore main .col.right {
   width: 28%;
 }
-main .col.right .box-right {
+
+.contenitore main .col.right .box-right {
   background-color: white;
   width: 100%;
   margin-bottom: 1em;
@@ -148,41 +153,41 @@ main .col.right .box-right {
   padding: 20px;
 }
 
-main .col.right .box-right h4 {
+.contenitore main .col.right .box-right h4 {
   text-align: center;
   color: #504741;
 }
 
-main .col.right .box-right:last-child {
+.contenitore main .col.right .box-right:last-child {
   margin-bottom: 0;
 }
 
 /* Regole Footer */
-footer {
+.contenitore footer {
   background-color: white;
   border-radius: 5px;
   color: lightgray;
 }
 
-footer p {
+.contenitore footer p {
   text-align: center;
   padding: 10px;
 }
 
-footer hr {
+.contenitore footer hr {
   margin: 10px 0;
 }
 
-footer .icone {
+.contenitore footer .icone {
   width: 70%;
   margin: auto;
 }
 
-footer .icone i {
+.contenitore footer .icone i {
   font-size: 40px;
   margin: 20px 150px 20px 0px;
 }
 
-footer .icone:last-child {
+.contenitore footer .icone:last-child {
   margin-right: 0;
 }
